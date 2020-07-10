@@ -4,16 +4,19 @@ import './App.css';
 import Header from './components/IG-Header'
 import Post from './components/IG-Post'
 
-
+/*
 class App extends Component {
   render(){
     return ( 
-      <h2>Alex Ginella</h2>
+      <div>
+        <h2>Alex Ginella</h2>
+        <p>hire me pls thanks</p>
+      </div>
     );
   }
 }
-
-/*
+*/
+///*
 class App extends Component {
   render(){
     return ( 
@@ -26,6 +29,6 @@ class App extends Component {
     );
   }
 }
-*/
+//*/
 
 export default App;
