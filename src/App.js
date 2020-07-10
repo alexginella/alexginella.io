@@ -1,34 +1,48 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/IG-Header'
-import Post from './components/IG-Post'
+import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import Pages from './components/Pages'
+import {Link} from 'react-router-dom'
+
+class App extends Component {
+  render(){
+    return (
+      <div className="demo-big-content">
+        <Layout>
+        <Header title="Title" scroll>
+            <Navigation>
+                <Link to="resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+            </Navigation>
+        </Header>
+        <Drawer title="Title">
+            <Navigation>
+                <Link to="/resume">Resume</Link>
+                <Link to="/aboutme">About Me</Link>
+            </Navigation>
+        </Drawer>
+        <Content>
+            <div className="page-content" />
+            <Pages/>
+        </Content>
+        </Layout>
+      </div>
+    )
+  }
+}
+
 
 /*
 class App extends Component {
   render(){
-    return ( 
-      <div>
-        <h2>Alex Ginella</h2>
-        <p>hire me pls thanks</p>
-      </div>
+    return (
+      <div className="container">
+        <h1 style={{color: 'white'}}>Alex Ginella</h1>
+        <Navbar/>
+    </div>
     );
   }
 }
 */
-///*
-class App extends Component {
-  render(){
-    return ( 
-      <div className="App">
-        <Header/>
-        <section className="App-main">
-          <Post username="ginillabean" avatar="https://www.chicagotribune.com/resizer/Pl_EhctmVe873qZZT1znFVQ5bMo=/fit-in/800x533/smart/filters:fill(black)/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/QWGWSDYK3BE7ZBWURXXJ7AQ6MM.jpg" caption="just 4 da memes (& da trap)" image="https://www.gannett-cdn.com/-mm-/62035649379a678fb24f5dbe5a4b66cba0a995c9/c=179-0-2659-3307/local/-/media/2016/05/29/Cincinnati/Cincinnati/636001135964333349-Harambe2.jpg" />
-        </section>
-      </div>
-    );
-  }
-}
-//*/
 
 export default App;
