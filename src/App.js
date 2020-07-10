@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Header from './components/Header'
-import Post from './components/Post'
+import Header from './components/IG-Header'
+import Post from './components/IG-Post'
 
 
+class App extends Component {
+  render(){
+    return ( 
+      <h2>Alex Ginella</h2>
+    );
+  }
+}
+
+/*
 class App extends Component {
   render(){
     return ( 
@@ -17,5 +26,6 @@ class App extends Component {
     );
   }
 }
+*/
 
 export default App;
