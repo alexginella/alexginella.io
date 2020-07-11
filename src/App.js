@@ -38,17 +38,4 @@ class App extends Component {
 }
 
 
-/*
-class App extends Component {
-  render(){
-    return (
-      <div className="container">
-        <h1 style={{color: 'white'}}>Alex Ginella</h1>
-        <Navbar/>
-    </div>
-    );
-  }
-}
-*/
-
 export default App;

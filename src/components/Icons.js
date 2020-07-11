@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "./styles.css"
 
-//hunt henrick summerill koens li pasari ken garret perera lai michaels nestleroad cervine kelly decap clam harrison vlasik fletch levy steve musal mr.G gosky kohn roth christensen hutchensn sauceda madam reynolds huyck 
+//hunt henrick summerill koens li pasari ken garret perera lai michaels nestleroad cervine kelly decap clam harrison vlasik fletch levy steve musal mr.G gosky kohn roth christensen hutchensn sauceda madam reynolds huyck dan hogan
 
 function Icons(){
     return (
