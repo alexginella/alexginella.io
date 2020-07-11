@@ -3,26 +3,31 @@ import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Pages from './components/Pages'
 import {Link} from 'react-router-dom'
+import Icons from './components/Icons'
 
 class App extends Component {
   render(){
     return (
       <div className="demo-big-content">
         <Layout>
-        <Header title="Title" scroll>
+        <Header className="navbar-color" title="Alex Ginella" scroll>
             <Navigation>
+                <Icons/>
+                {/*
                 <Link to="/">Home</Link>
                 <Link to="resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
+              */}
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Alex Ginella">
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>
             </Navigation>
         </Drawer>
-        <Content>
+        <Content className="content">
             <div className="page-content" />
             <Pages/>
         </Content>
