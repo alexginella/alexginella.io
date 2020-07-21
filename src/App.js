@@ -16,7 +16,7 @@ class App extends Component {
     return (
       <div className="demo-big-content">
         <Layout>
-        <Header className="navbar-color" title="alexginella.io" scroll>
+        <Header className="navbar-color" title={<Link to="/" style={{color: "white", textDecoration: "none"}}>alexginella.io</Link>} scroll>
             <Navigation>
                 <Icons/>
             </Navigation>

@@ -11,15 +11,16 @@ class Home extends Component {
                         <img src='https://avatars1.githubusercontent.com/u/43981904?s=460&u=ae9213325f7e5f2e8bc533a287c0a34fee967722&v=4' 
                              alt="pic" 
                              className="pic"/>
-                        <h2 className='welcome-text' style={{color:"white"}}>Hi, Welcome to alexginella.io</h2>
+                        <h2 className='welcome-text'>Hi, Welcome to alexginella.io</h2>
                         
                     </Cell>
-                    <Cell col={12}>
-                        <p className="intro-text">Alex Ginella is a senior computer science and linguistics undergraduate at
+                    <Cell col={3}></Cell>
+                    <Cell col={6}>
+                        <p className="intro-text">Alex Ginella is a senior Computer Science and Linguistics undergraduate at
                                                   the University of California, Los Angeles. His interests include: coding,
                                                   linguistics, computational linguistics, artificial intelligence, volleyball and jazz.
-                                                  He expects to graduate in the Spring of 2021 and hopes to persue a career in 
-                                                  software engineering and entrepreneurship.</p>
+                                                  He expects to graduate in the Spring of 2021 and hopes to pursue a career in 
+                                                  Software Engineering and Entrepreneurship.</p>
                     </Cell>
                 </Grid>
             </div>
