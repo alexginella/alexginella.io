@@ -75,3 +75,14 @@ a.social:hover {
   line-height: normal;
   text-align: left;
 }
+
+.about-me{
+  background-color: rgba(0, 82, 82, 0.719);
+  width: 700px;
+  margin: auto;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  line-height: normal;
+  text-align: left;
+}
