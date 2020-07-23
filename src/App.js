@@ -5,6 +5,8 @@ import Pages from './components/Pages'
 import {Link} from 'react-router-dom'
 import Icons from './components/Icons'
 import NavBar from './components/NavBar'
+import { CIcon } from '@coreui/icons-react';
+import { cifAU } from '@coreui/icons';
 
 function hideToggle() {
   var selectorId = document.querySelector('.mdl-layout');

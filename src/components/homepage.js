@@ -1,5 +1,8 @@
 import React, {Component} from 'react'
 import { Grid, Cell } from 'react-mdl'
+import { CIcon } from '@coreui/icons-react';
+import { cifAU } from '@coreui/icons';
+import MagnifyingGlass from './MagnifyingGlass';
 import '../App.css'
 
 class Home extends Component {
@@ -8,11 +11,11 @@ class Home extends Component {
             <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="https://lh3.googleusercontent.com/minGc7uFZithcvUyujkF7gWvgtUbIuJAGv37y79fab9oQW4SbXGQ9CM4Xz_KRyHtRGyVl5pfCsXQFjzD4YfLZ9QzEuH1qYF_ntCSOHujsZqFtt8GulrEHV9fRGnPhVbu3kQYG0kQKfdLUbAAu3AOJ6FDf4WjIY6bFG2QfbN8bZfEz_bjxN9yUTipbrxGkZixDluty3hEvuvCOdPHkN57Wj53vc9m-TRZaULFMP2GodxLnbeAaWjrMFYMRmB4L_IWdnMPYiOtFnHLAhfzJ0n6dhoHR-PruwFxlmI_D7Ov6oAWWW-DpG-F1LDdsd_hkDpZUNEOfS2UK9Jtcz1snpPTfaJUpFQtc9g7XqPqb-d_6_Oz-yD9JBEcLhHLcSvK-oQarMmZGoV8bOTUwRY5xWyKS-OunA-jDsaRx5UvwKPsf9SyL1id8gXRJjoT7NG6jzKS06OH3KgLLHv66-fHHaKU1oUXIpPMowRMOrKy08x2N-1yNSQmblSfMiUnjM21W6GNzd3CvzTh9LtZzxOh46AfUaSqciMGwcYRUn_IoU47oUDDDxAhKyJXAQeIEZPae87DoQTV_mFVgp-spKVSRxw1vG1QvVz6x6GSXdF9rKa7hR5XvGYrE-i7cK14i3C0FOMQ05qRk8s6h1v8A8mEoSBrwMXnZZXVxP6hDYoUiR_jJ1a6A_sQ-MxbgmqXsjTf1dE=s937-no?authuser=0" 
+                        <img src="https://lh3.googleusercontent.com/vFrZjIP_JpMQvB49ogsHuNzaQBAiivdYRqo6z7bAaZfDUPlNtJZx2UVotmorpPYVkJNlgtGyVAXi2IQ5PR8-aKMKDJa6h1zkfVt4abiKAaOXaSOy1RtLcCmjAi8ctBLM1FvpyFAzWapXIW84YcsyQbK-GDUHCPJl8DwbiJY8euqL0Qzh0XLaPti3bIWmp6mASG_n3Kzt49YtN6XLRqWK45w0WtoZB2qW5zYRMcZxP42ZyqNpilTiNTTEMFto_1H66xI9egUBSOnNFJ-qyObh0eLRl8L6Qgx5MQVdXwBq2Mvd0Sz38B-jKpH5LWpkWzbxI-tkHhfSUEJmS-4ySsYWi1NUmO-Wo6M9iycrmaHqEHmcmenxd1KFJ9sEY25KMoSoiL-ayZq_L6Jbb7deIWn4Z4y0rEtzJyPvAyfWEbsip2xbh4nanHOKKHJXxi6Wp4-xraMgqOznD9Z4nM_92euK1ro7x2GzQHAwPKKYyVg_BtTh5pU2jL9pS3l3qufmBx52xeWuSbYd1cLrsJu-qPqFy_kOa57nRByf_Qh_PVPtG99lNw7AH9qnF_ZTMWPxPh7-qq4tbaS4WkbpetrmHJlOA7ZloDGCA1tGAT-RSwXmsd4h-S-PifgyIXgfJKRCSybsp2jloRdfJGi78DilyRCN2SssPQUNyjK7wD1efHCOMkKGemK1DoJsxCO8qprEvPg=s937-no?authuser=0" 
                              alt="pic" 
                              className="pic"/>
                         <h2 className='search-bar'>
-                            <i class="cis-magnifying-glass"></i>
+                            <CIcon name="cis-magnifying-glass" size="2xl"/>
                             alex ginella computer science
                         </h2>
                     </Cell>
