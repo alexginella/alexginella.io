@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Grid, Cell } from 'react-mdl'
-import { CIcon } from '@coreui/icons-react';
-import { cifAU } from '@coreui/icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import MagnifyingGlass from './MagnifyingGlass';
 import '../App.css'
 
@@ -15,17 +15,21 @@ class Home extends Component {
                              alt="pic" 
                              className="pic"/>
                         <h2 className='search-bar'>
-                            <CIcon name="cis-magnifying-glass" size="2xl"/>
-                            alex ginella computer science
+                            <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" />
+                            alex ginella<span style={{opacity:".5"}}> ... computer science</span>
                         </h2>
                     </Cell>
                     <Cell col={3}></Cell>
                     <Cell col={6}>
-                        <p className="intro-text">Alex Ginella is a senior Computer Science and Linguistics undergraduate at
-                                                  the University of California, Los Angeles. His interests include: coding,
-                                                  linguistics, computational linguistics, artificial intelligence, volleyball and jazz.
-                                                  He expects to graduate in the Spring of 2021 and hopes to pursue a career in 
-                                                  Software Engineering and Entrepreneurship.</p>
+                        <div className="search-results">
+                            <p className="intro-text">alex ginella <strong>c++</strong></p>
+                            <p className="intro-text">alex ginella <strong>Java</strong></p>
+                            <p className="intro-text">alex ginella <strong>JavaScript</strong></p>
+                            <p className="intro-text">alex ginella <strong>React</strong></p>
+                            <p className="intro-text">alex ginella <strong>Python</strong></p>
+                            <p className="intro-text">alex ginella <strong>Computational Linguistics</strong></p>
+                            <p className="intro-text">alex ginella <strong>Volleyball</strong></p>
+                        </div>
                     </Cell>
                 </Grid>
             </div>

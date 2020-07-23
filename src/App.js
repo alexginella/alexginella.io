@@ -8,11 +8,6 @@ import NavBar from './components/NavBar'
 import { CIcon } from '@coreui/icons-react';
 import { cifAU } from '@coreui/icons';
 
-function hideToggle() {
-  var selectorId = document.querySelector('.mdl-layout');
-  selectorId.MaterialLayout.toggleDrawer();
-}
-
 class App extends Component {
   render(){
     return (
