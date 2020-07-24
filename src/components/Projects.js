@@ -51,7 +51,7 @@ class Projects extends Component{
                             </CardText>
                             <CardActions border>
                                 <Button colored>
-                                    <Link to="/Projects/Kontageon" style={{color: "blue", textDecoration: "none"}}>Check it out!</Link>
+                                    <Link to="/Projects/Kontagion" style={{color: "blue", textDecoration: "none"}}>Check it out!</Link>
                                 </Button>
                             </CardActions>
                             <CardMenu style={{color: 'white'}}>

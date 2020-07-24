@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import { Grid, Cell } from 'react-mdl'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
+import {Link} from 'react-router-dom'
 import '../App.css'
 
 class Home extends Component {
@@ -21,12 +22,12 @@ class Home extends Component {
                     <Cell col={3}></Cell>
                     <Cell col={6}>
                         <div className="search-results">
-                            <p className="intro-text">alex ginella <strong>C++</strong></p>
-                            <p className="intro-text">alex ginella <strong>Java</strong></p>
-                            <p className="intro-text">alex ginella <strong>JavaScript</strong></p>
+                            <Link style={{textDecoration:"none"}} to="/Projects/Kontagion"><p className="intro-text">alex ginella <strong>C++</strong></p></Link>
+                            <Link style={{textDecoration:"none"}} to="/Projects/aMAZEing"><p className="intro-text">alex ginella <strong>Java</strong></p></Link>
+                            <Link style={{textDecoration:"none"}} to="/Projects/POSTagger"><p className="intro-text">alex ginella <strong>Computational Linguistics</strong></p></Link>                            
                             <p className="intro-text">alex ginella <strong>React</strong></p>
                             <p className="intro-text">alex ginella <strong>Python</strong></p>
-                            <p className="intro-text">alex ginella <strong>Computational Linguistics</strong></p>
+                            <p className="intro-text">alex ginella <strong>Music</strong></p>
                             <p className="intro-text">alex ginella <strong>Volleyball</strong></p>
                         </div>
                     </Cell>

@@ -76,6 +76,10 @@ a.social:hover {
   text-align: left;
 }
 
+.intro-text:hover{
+  background-color: rgb(187, 187, 187);
+}
+
 .about-me{
   background-color: rgba(0, 82, 82, 0.719);
   width: 700px;
@@ -93,4 +97,8 @@ a.social:hover {
   background: #0F2027;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.active{
+  background-color: gray;
 }
