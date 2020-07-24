@@ -2,7 +2,6 @@ import React, {Component} from 'react'
 import { Grid, Cell } from 'react-mdl'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
-import MagnifyingGlass from './MagnifyingGlass';
 import '../App.css'
 
 class Home extends Component {
@@ -22,7 +21,7 @@ class Home extends Component {
                     <Cell col={3}></Cell>
                     <Cell col={6}>
                         <div className="search-results">
-                            <p className="intro-text">alex ginella <strong>c++</strong></p>
+                            <p className="intro-text">alex ginella <strong>C++</strong></p>
                             <p className="intro-text">alex ginella <strong>Java</strong></p>
                             <p className="intro-text">alex ginella <strong>JavaScript</strong></p>
                             <p className="intro-text">alex ginella <strong>React</strong></p>
