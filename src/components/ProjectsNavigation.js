@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import { Navigation, Grid, Cell } from 'react-mdl';
-import Icons from './Icons';
+import { Grid, Cell } from 'react-mdl';
 
 class ProjectsNavigation extends Component{
 

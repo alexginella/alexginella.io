@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {Link} from 'react-router-dom'
-import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
+import {Navigation, Drawer, Content} from 'react-mdl';
 
 class NavBar extends Component{
     hideToggle() {
