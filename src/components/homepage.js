@@ -1,9 +1,9 @@
-import React, {Component} from 'react'
-import { Grid, Cell } from 'react-mdl'
+import React, {Component} from 'react';
+import { Grid, Cell } from 'react-mdl';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
-import '../App.css'
+import '../App.css';
 
 class Home extends Component {
     render(){
@@ -11,7 +11,7 @@ class Home extends Component {
             <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src="pfp.jpg" 
+                        <img src={require("../images/pfp.jpg")} 
                              alt="my face" 
                              className="pic"/>
                         <h2 className='search-bar'>
