@@ -14,7 +14,10 @@ class NavBar extends Component{
                 <Link to="/" onClick={() => this.hideToggle()}>Home</Link>
                 <Link to='/Projects' onClick={() => this.hideToggle()}>Projects</Link>
                 <Link to="/Resume" onClick={() => this.hideToggle()}>Resume</Link>
+                <Link to="/Music" onClick={() => this.hideToggle()}>Music</Link>
+                <Link to="/Volleyball" onClick={() => this.hideToggle()}>Volleyball</Link>
                 <Link to="/Aboutme" onClick={() => this.hideToggle()}>About Me</Link>
+
             </Navigation>
         );
     }

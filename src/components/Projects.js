@@ -10,6 +10,23 @@ class Projects extends Component{
                 <Grid>
                     <Cell col={4}>
                         <Card shadow={1} style={{width: 'fit-content', margin: 'auto'}}>
+                            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://lh3.googleusercontent.com/Pcmt0KzVjXPl0VeMdnRA54LjwTreQSenWjPOrQGRT5sEwbVCM0JDhcDUQKCHxJ1qerTfyHm0EBnEOqAdMPKze24HTXRt49Pu1G4r1MYacgVEMRwIs12tVJbkH01KQntEWMFotKi8wnWvwgns-TkGwWW22jG7L2DMhd8BFO1MHZ-ffPR-UM4xYyrhu3IqjBHiAE0nQS_HeneWkNWD4dAkPhduk25u4XJmUUqpj_H8c_PCq8v5tAlry4vbB13qRy1SF_gHunjaKWZdePVA__TiwxwGzbZoZobud_lreKmB3EbA2ubmBblKy_bnh0MlRLb9VM5WAVq5QNa9v-N6bKNkUgbtbndqSqzF_HucmM_m4CB4c8YOHYVXc4q4om-TVMPrMUnjtAvk82p1smGrbRl5E0tg2tRJ0r1IR0RYSHSCZWb-iqmMFs5HJqJjRpxAUusDeOiCOqa4RLDcmQ3UWrUG1nSvG9_s8-2EuX1MI892ac1HIAKFQxVpsODci7sQEaL24HNIIHm74vFazp7pgR5iqIMyeg17kAHbP4C3FpoqElwvnb9Ovaxk1V-DrwKnjqJ_gQNV4o1B1hkDrahpwVAftLVwMGB8e1hEgcyTKUDJUvL77DoWTf288i3GEc4kpgTfnDcFcEd3rcOqqUwu-bwFWz9dza8sysUEfZK3nB6JFr7aiIpKjZj5F05NjQp3sZY=w1510-h937-no?authuser=0) center / cover'}}>CoronaCraft - React Web Application</CardTitle>
+                            <CardText>
+                                I created the base front end and implemented the backend web scraping
+                                functionality using the puppeteer JavaScript library
+                            </CardText>
+                            <CardActions border>
+                                <Button colored>
+                                    <Link to="/Projects/CoronaCraft" style={{color: "blue", textDecoration: "none"}}>Check it out!</Link>
+                                </Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
+                    </Cell>
+                    <Cell col={4}>
+                        <Card shadow={1} style={{width: 'fit-content', margin: 'auto'}}>
                             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://lh3.googleusercontent.com/fV0o9GvnE_xQGS6g0Jy1WFoYTB4W1_-HWYZ_mBYFyia5taAkjUPFoUCV0eAXD-r2Oy0lKNbusDZqZYdz4Efh9JjrCEGP7BFe88WUBageRQyHuLZSUoJAQT1wU_aRsI3hWC9O4mYAdwwdQArHHgkrPlTHFGG820MmmA-9c8kze7eHS_dVLVOSa7I4tU3bWIOYfxgOUn5uujztDQPZ3XhZFlwHw1Bzl9jDIrpofZGTYwVHomc3iyGGYwx8zGpX7duEEQ16KJ0GbZgw4Nt6AvZNG2UqmWIU1Z3kXvhe3JRTe_X7r1AseGY1gYnlsPa8H0_qQaV3syb0jo77ItCvj_E7lE3iEMuNwNk529Rj-N49VTDwktElf1mT8VCfl_Sl3MlkZHPfoMIP0LGfokFVhbsovE2SsOS6hu5sOdzmfb7eCS9Jxs0pW0kHT3RZCaFxlclg3KqZ9QNL07TAqXfN0itp6IHvQ_4n9LULnIY6EZUD-KZX7bauziRcON43RhV6DZ-frE-lfSmVW6RQqa-ctDrDvgLkcajSFXLgaMaiDs06w8MxU2edAkqrTyNY11PMkKmOyQOpwpCADqFg3DiN3hUmucVPuoJuB5_1XFyTAE0MN2Sb8_fpDKKW902XHzAxt7lipaiNxT2MA5hNqvIdFZq5Z_wHzjeLPw_kwuf6wcyU9biGG_zIW5mjkgdqGCbfrg=w393-h252-no?authuser=0) center / cover'}}>aMAZEing - Java</CardTitle>
                             <CardText>
                                 Program uses a disjoint set data structure to randomly generate a maze,

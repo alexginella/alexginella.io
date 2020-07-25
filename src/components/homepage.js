@@ -25,10 +25,10 @@ class Home extends Component {
                             <Link style={{textDecoration:"none"}} to="/Projects/Kontagion"><p className="intro-text">alex ginella <strong>C++</strong></p></Link>
                             <Link style={{textDecoration:"none"}} to="/Projects/aMAZEing"><p className="intro-text">alex ginella <strong>Java</strong></p></Link>
                             <Link style={{textDecoration:"none"}} to="/Projects/POSTagger"><p className="intro-text">alex ginella <strong>Computational Linguistics</strong></p></Link>                            
-                            <p className="intro-text">alex ginella <strong>React</strong></p>
+                            <Link style={{textDecoration:"none"}} to="/Projects/CoronaCraft"><p className="intro-text">alex ginella <strong>React</strong></p></Link>                            
                             <p className="intro-text">alex ginella <strong>Python</strong></p>
-                            <p className="intro-text">alex ginella <strong>Music</strong></p>
-                            <p className="intro-text">alex ginella <strong>Volleyball</strong></p>
+                            <Link style={{textDecoration:"none"}} to="/Music"><p className="intro-text">alex ginella <strong>Music</strong></p></Link>                            
+                            <Link style={{textDecoration:"none"}} to="/Volleyball"><p className="intro-text">alex ginella <strong>Volleyball</strong></p></Link>                            
                         </div>
                     </Cell>
                 </Grid>
