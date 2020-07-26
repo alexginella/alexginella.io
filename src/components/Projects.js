@@ -76,7 +76,23 @@ class Projects extends Component{
                             </CardMenu>
                         </Card>
                     </Cell>
-                    
+                    <Cell col={4}>
+                        <Card shadow={1} style={{width: 'fit-content', margin: 'auto'}}>
+                            <CardTitle style={{color: 'white', height: '176px', background: 'url(https://support.appsflyer.com/hc/article_attachments/360001968989/twitter_logo.jpg) center/cover'}}>TwitBot - Python</CardTitle>
+                            <CardText>
+                                Working on a Twitter bot that automatically posts the negation of whatever Donald
+                                Trump's latest post is
+                            </CardText>
+                            <CardActions border>
+                                <Button colored>
+                                    <Link to="/Projects/TwitBot" style={{color: "blue", textDecoration: "none"}}>Check it out!</Link>
+                                </Button>
+                            </CardActions>
+                            <CardMenu style={{color: '#fff'}}>
+                                <IconButton name="share"/>
+                            </CardMenu>
+                        </Card>
+                    </Cell>
                 </Grid>
             </div>
         )

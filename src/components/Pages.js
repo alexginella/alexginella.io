@@ -13,6 +13,7 @@ import Kontagion from "./projects/Kontagion";
 import CoronaCraft from "./projects/CoronaCraft";
 import Music from "./Music";
 import Volleyball from "./Volleyball";
+import TwitBot from "./projects/TwitBot";
 
 function Pages(){
     return (
@@ -29,6 +30,7 @@ function Pages(){
                     <Route path="/Projects/aMAZEing" component={aMAZEing}/>
                     <Route path="/Projects/Kontagion" component={Kontagion}/>
                     <Route path="/Projects/CoronaCraft" component={CoronaCraft}/>
+                    <Route path="/Projects/TwitBot" component={TwitBot}/>
                 </div>
             </div>
             
