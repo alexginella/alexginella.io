@@ -44,12 +44,13 @@ a.social:hover {
 .search-bar{
   background-color: white;
   color: rgb(0, 0, 0);
-  width: 700px;
+  width: 850px;
   text-align: left;
   margin: auto;
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
-  border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 0px 0px;
+  border-bottom: 1px solid gray;
 }
 
 .welcome-text{
@@ -62,12 +63,13 @@ a.social:hover {
 }
 
 .search-results{
-  border-radius: 0px 0px 15px 15px;
+  width: fit-content;
+  margin: auto;
 }
 
 .intro-text{
   background-color: white;
-  width: 700px;
+  width: 850px;
   margin: auto;
   color: black;
   padding: 10px;
