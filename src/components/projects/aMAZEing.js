@@ -31,21 +31,22 @@ class aMAZEing extends Component{
                         </a>
                     </h1>
                 </Cell>
+                <Cell col={12}><h1/></Cell>
                 <Cell col={6}>
                     <h1 className="project-text">
                         Example Output:
                     </h1>
                 </Cell>
                 <Cell col={6}>
-                    <h1 className="project-text" style={{margin:"auto"}}>
+                    <h1 className="project-text">
                         Hexadecimal Encoding Scheme
                     </h1>
                 </Cell>
                 <Cell col={6}>
-                    <img style={{width:"100%"}} src={require("../../images/maze2.png")}/>
+                    <img style={{width:"100%"}} src={require("../../images/maze2-square.png")}/>
                 </Cell>
                 <Cell col={6}>
-                    <img style={{width:"100%", objectFit:"contain", height:"80%"}} src={require("../../images/maze-sheet.png")}/>
+                    <img style={{width:"100%"}} src={require("../../images/maze-sheet-square.png")}/>
                 </Cell>
             </Grid>
         );
