@@ -6,7 +6,7 @@ class AboutMe extends Component {
         return (
             <Grid>
                 <Cell col={12}>
-                    <h1 className="welcome-text">Who am I?</h1>
+                    <h1 className="title-text">Who am I?</h1>
                 </Cell>
                 <Cell col={3}/>
                 <Cell col={6}>

@@ -1,0 +1,12 @@
+
+.project-text{
+  width: fit-content;
+  padding: 15px;
+  background-color: rgba(0, 82, 82, 0.719);
+  color: white;
+  line-height: 1.3;
+}
+
+.videoInsert {
+  height: 700px;
+}
