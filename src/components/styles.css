@@ -30,7 +30,7 @@ a.social:hover {
 
   
 .pic{
-  height: 350px;
+  height: 400px;
   border-radius: 50%;
   padding-bottom: 20px;
 
@@ -60,6 +60,7 @@ a.social:hover {
   margin: auto;
   padding: 15px;
   font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
 }
 
 .search-results{
@@ -91,6 +92,8 @@ a.social:hover {
   font-size: 25px;
   line-height: normal;
   text-align: left;
+  border-radius: 15px;
+
 }
 
 .projects-navBar{

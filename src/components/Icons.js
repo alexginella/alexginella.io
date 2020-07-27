@@ -16,20 +16,20 @@ import "./styles.css"
 function Icons(){
     return (
         <div>
-            <a href="https://www.linkedin.com/in/alex-ginella/"
+            <a href="https://www.linkedin.com/in/alex-ginella/" target="blank_"
                className="facebook social">
                <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
             <a href="https://github.com/alexginella" 
-               className="facebook social">
+               className="facebook social" target="blank_">
                 <FontAwesomeIcon icon={faGithub} size="2x" />
             </a>
             <a href="https://www.facebook.com/alex.ginella"
-               className="facebook social">
+               className="facebook social" target="blank_">
                 <FontAwesomeIcon icon={faFacebook} size="2x" />
             </a>
             <a href="https://www.instagram.com/ginillabean/"
-               className="facebook social">
+               className="facebook social" target="blank_">
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
             
