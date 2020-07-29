@@ -6,15 +6,12 @@ class POSTagger extends Component{
         return(
             <Grid>
                 <Cell col={12}>
-                    <h1 className="project-text">
+                    <h1 className="project-text" style={{margin:"auto"}}>
                         Part Of Speech Tagger
                     </h1>
                 </Cell>
-                <Cell col={5}>
-                    <img style={{width:"100%"}} src={require("../../images/SLG-compressor.jpg")}/>
-                </Cell>
-                <Cell col={7}>
-                    <h3 className="project-text" style={{padding:"7px"}}>Explanation:</h3>
+                <Cell col={12}><h3 className="project-text" style={{padding:"7px"}}>Explanation:</h3></Cell>
+                <Cell col={8}>
                     <p className="project-text" style={{fontSize:"20pt"}}>
                         I created a part of speech tagger in Haskell using a probablystic strictly local grammar built
                         from data collected from a corpus (the Brown Corpus). I was able to find probabilities
@@ -34,6 +31,12 @@ class POSTagger extends Component{
                         Given the input string "the very fat cat" the program uses contextual data
                         from the corpus to determine that "the" is a determiner, "very" is an adverb, "fat" is an adjective and "cat" is a noun.
                     </p>
+                </Cell>
+                <Cell col={4}>
+                    <img style={{width:"100%"}} src={require("../../images/SLG-compressor.jpg")}/>
+                    <h2 className="project-text">
+                        <a style={{color:"white"}} href="https://github.com/alexginella/PartOfSpeechTagger/archive/master.zip">Download the code here</a>
+                    </h2>
                 </Cell>
             </Grid>
         );
