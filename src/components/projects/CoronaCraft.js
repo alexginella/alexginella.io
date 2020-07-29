@@ -7,7 +7,7 @@ class CoronaCraft extends Component{
         return(
             <Grid>
                 <Cell col={12}>
-                    <h1 className="project-text">
+                    <h1 className="project-title">
                         Corona-Craft React App
                     </h1>
                 </Cell>

@@ -6,7 +6,7 @@ class aMAZEing extends Component{
         return(
             <Grid>
                 <Cell col={12}>
-                    <h1 className="project-text" style={{margin:"auto"}}>
+                    <h1 className="project-title" style={{margin:"auto"}}>
                         aMAZEing Maze Generator and Solver
                     </h1>
                 </Cell>
