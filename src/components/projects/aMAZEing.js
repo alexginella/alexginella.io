@@ -43,10 +43,10 @@ class aMAZEing extends Component{
                     </h1>
                 </Cell>
                 <Cell col={6}>
-                    <img style={{width:"100%"}} src={require("../../images/maze2-square.png")}/>
+                    <img style={{width:"100%", height:"90%"}} src={require("../../images/maze2-square.png")}/>
                 </Cell>
                 <Cell col={6}>
-                    <img style={{width:"100%"}} src={require("../../images/maze-sheet-square.png")}/>
+                    <img style={{width:"100%", height:"90%"}} src={require("../../images/maze-sheet-square.png")}/>
                 </Cell>
             </Grid>
         );
