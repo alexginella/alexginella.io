@@ -10,7 +10,7 @@ class POSTagger extends Component{
                         Part Of Speech Tagger
                     </h1>
                 </Cell>
-                <Cell col={12}><h3 className="project-text" style={{padding:"7px"}}>Explanation:</h3></Cell>
+                <Cell col={12}><h3 className="project-title" style={{margin:"0"}}>Explanation:</h3></Cell>
                 <Cell col={8}>
                     <p className="project-text" style={{fontSize:"20pt"}}>
                         I created a part of speech tagger in Haskell using a probablystic strictly local grammar built
@@ -25,8 +25,8 @@ class POSTagger extends Component{
                         I will have found the sentence where each word is statistically most likely to be tagged with the 
                         right part of speech for that context.
                     </p>
-                    <h3 className="project-text" style={{padding:"7px"}}>Example:</h3>
-                    <img style={{paddingBottom:"15px"}} src={require("../../images/POSTagger.png")}/>
+                    <h3 className="project-title" style={{margin:"0"}}>Example:</h3>
+                    <img style={{padding:"15px"}} src={require("../../images/POSTagger.png")}/>
                     <p className="project-text" style={{fontSize:"20pt"}}>
                         Given the input string "the very fat cat" the program uses contextual data
                         from the corpus to determine that "the" is a determiner, "very" is an adverb, "fat" is an adjective and "cat" is a noun.
