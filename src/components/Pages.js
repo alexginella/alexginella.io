@@ -11,6 +11,7 @@ import CoronaCraft from "./projects/CoronaCraft";
 import Music from "./Music";
 import Volleyball from "./Volleyball";
 import TwitBot from "./projects/TwitBot";
+import Experience from "./Experience";
 
 function Pages(){
     return (
@@ -20,6 +21,7 @@ function Pages(){
             <Route path="/Aboutme" component={AboutMe} />
             <Route path="/Music" component={Music}/>
             <Route path="/Volleyball" component={Volleyball}/>
+            <Route path="/Experience" component={Experience}/>
             <div>
                 <Route exact path="/Projects" component={Projects}/>
                 <div>
