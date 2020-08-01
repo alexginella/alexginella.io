@@ -12,6 +12,22 @@ class Volleyball extends Component{
                         Volleyball
                     </h2>
                 </Cell>
+                <Cell col={12}>
+                    <p className="project-text">
+                        Some open gym funnies (I'm the one in the pants and Gekyume shirt)
+                    </p>
+                </Cell>
+                <Cell col={12}>                   
+                    <video className="videoInsert" src={require("../images/OpenGym.MOV")} controls/>
+                </Cell>
+                <Cell col={12}>
+                    <p className="project-text">
+                        Cool pic from highschool \(0.0)/
+                    </p>
+                </Cell>
+                <Cell col={12}>                   
+                    <img src={require("../images/CoolPic.JPG")} controls/>
+                </Cell>
             </Grid>
         );
     }
