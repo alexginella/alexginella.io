@@ -7,6 +7,9 @@ import Icons from './components/Icons'
 import NavBar from './components/NavBar'
 import { CIcon } from '@coreui/icons-react';
 import { cifAU } from '@coreui/icons';
+import StarfieldAnimation from 'react-starfield-animation'
+import Starfield from './components/Starfield';
+//<StarfieldAnimation style={{position: 'absolute', width: '100%', height: '100%'}}/>
 
 class App extends Component {
   render(){
@@ -21,9 +24,8 @@ class App extends Component {
         <Drawer title="alexginella.io">
             <NavBar/>
         </Drawer>
-        <Content className="content">
-            <div className="page-content" />
-            <Pages/>
+        <Content className="content">\
+          <Pages/>
         </Content>
         </Layout>
       </div>

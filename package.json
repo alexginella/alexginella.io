@@ -20,7 +20,9 @@
     "react-player": "^2.6.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "react-vertical-timeline-component": "^3.0.2"
+    "react-starfield-animation": "^1.0.1",
+    "react-vertical-timeline-component": "^3.0.2",
+    "starfield-react": "^3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
