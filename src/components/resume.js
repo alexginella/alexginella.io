@@ -5,9 +5,10 @@ class Resume extends Component {
     render(){
         return (
             <div>
-                <p></p>
-                <h2 className="title-text">Resume</h2>
                 <Grid>
+                    <Cell col={12}>
+                        <h2 className="title-text">Resume</h2>
+                    </Cell>
                     <Cell style={{textAlign:"center"}} col={3}>
                         <a style={{fontSize:"20pt"}} className="title-text" target="blank_" href="https://docs.google.com/document/d/182ofZSJR9y4GEHKDQK8B3WR5QzKYTG8KA8JEl5Pm0zg/edit?usp=sharing">Shareable Link</a>
                     </Cell>

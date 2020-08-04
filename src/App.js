@@ -9,8 +9,18 @@ import { CIcon } from '@coreui/icons-react';
 import { cifAU } from '@coreui/icons';
 import StarfieldAnimation from 'react-starfield-animation'
 import Starfield from './components/Starfield';
+import classes from './BackgroundVideo.module.css';
 //<StarfieldAnimation style={{position: 'absolute', width: '100%', height: '100%'}}/>
-
+/**
+ * <div className={classes.Container}>
+            <Starfield/>
+            <div className={classes.Content}>
+              <div className={classes.SubContent}>
+                <Pages/>
+              </div>
+            </div>
+          </div>
+ */
 class App extends Component {
   render(){
     return (
@@ -24,8 +34,11 @@ class App extends Component {
         <Drawer title="alexginella.io">
             <NavBar/>
         </Drawer>
-        <Content className="content">\
-          <Pages/>
+        <Content className="content">
+          <Starfield/>
+          <div className={classes.Content}>
+            <Pages/>
+          </div>
         </Content>
         </Layout>
       </div>
