@@ -104,7 +104,7 @@ class Experience extends Component{
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                    iconStyle={{ background: 'red', color: '#fff' }}
                     icon={<FontAwesomeIcon icon={faFlagCheckered}/>}
                 />
             </VerticalTimeline>
