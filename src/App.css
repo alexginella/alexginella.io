@@ -1,7 +1,8 @@
 
 .content{
-  background-image: url(./images/andromeda-large.jpg);
+  background-image: url(./images/andromeda-smallest.jpg);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .navbar-color{

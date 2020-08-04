@@ -8,6 +8,11 @@ class Projects extends Component{
         return (
             <div>
                 <Grid>
+                    <Cell col={12}>
+                        <h1 className="project-title">
+                            Projects
+                        </h1>
+                    </Cell>
                     <Cell col={4}>
                         <Card shadow={1} style={{width: 'fit-content', margin: 'auto'}}>
                             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://i.ibb.co/PMYh0m8/Corona-Craft2.png) '}}>CoronaCraft - React Web Application</CardTitle>
