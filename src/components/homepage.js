@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Button } from 'react-mdl';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
@@ -22,17 +22,52 @@ class Home extends Component {
         })
     }
 
+/**
+    initialize(){
+
+        // Update the controls on load
+        updateTimerDisplay();
+        updateProgressBar();
+    
+        // Clear any old interval.
+        clearInterval(time_update_interval);
+    
+        // Start interval to update elapsed time display and
+        // the elapsed part of the progress bar every second.
+        time_update_interval = setInterval(function () {
+            updateTimerDisplay();
+            updateProgressBar();
+        }, 1000)
+    
+    }
+
+    onYouTubeIframeAPIReady() {
+        var player = new YT.Player('video-placeholder', {
+            width: 600,
+            height: 400,
+            videoId: 'rn7MmS3vazU',
+            playerVars: {
+                color: 'white',
+                playlist: 'taJ60kskkns,FG0fTKAqZ5g'
+            },
+            events: {
+                onReady: initialize
+            }
+        });
+    }
+ */
+
     render(){
         return (
             <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img src={require("../images/bill_gates.jpg")} 
+                    <img src={require("../images/bill_gates.jpg")} 
                              alt="my face" 
                              className="pic"/>
                         <h2 className='search-bar'>
                             <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> 
-                            alex ginella<span style={{opacity:".5"}}>{this.state.autoComplete}</span>
+                            alex ginella<span style={{opacity:"0.5"}}>{this.state.autoComplete}</span>
                         </h2>
                         <div className="search-results" onMouseLeave={() => this.setState({autoComplete:""})}>
                             <Link style={{textDecoration:"none"}} to="/Projects/Kontagion"><p className="intro-text" onMouseEnter={() => this.autoComplete("C++")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>C++</strong></p></Link>
@@ -44,7 +79,12 @@ class Home extends Component {
                             <Link style={{textDecoration:"none"}} to="/Volleyball"><p style={{borderRadius: "0px 0px 15px 15px"}} className="intro-text" onMouseEnter={() => this.autoComplete("Volleyball")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Volleyball</strong></p></Link>                            
                         </div>
                     </Cell>
+                    <Cell col={11}/>
+                    <Cell col={1}>
+                        <div id="video-placeholder"></div>
+                    </Cell>
                 </Grid>
+                <script src="https://www.youtube.com/iframe_api"></script>
             </div>
         )
     }
