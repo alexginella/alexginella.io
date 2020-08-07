@@ -31,19 +31,19 @@ class Home extends Component {
                     <img src={require("../images/bill_gates.jpg")} 
                              alt="my face" 
                              className="pic"/>
-                        <h2 className='search-bar'>
-                            <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> 
-                            alex ginella<span style={{opacity:"0.5"}}>{this.state.autoComplete}</span>
-                        </h2>
-                        <div className="search-results" onMouseLeave={() => this.setState({autoComplete:""})}>
-                            <Link style={{textDecoration:"none"}} to="/Projects/Kontagion"><p className="intro-text" onMouseEnter={() => this.autoComplete("C++")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>C++</strong></p></Link>
-                            <Link style={{textDecoration:"none"}} to="/Projects/aMAZEing"><p className="intro-text" onMouseEnter={() => this.autoComplete("Java")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Java</strong></p></Link>
-                            <Link style={{textDecoration:"none"}} to="/Projects/POSTagger"><p className="intro-text" onMouseEnter={() => this.autoComplete("Computational Linguistics")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Computational Linguistics</strong></p></Link>                            
-                            <Link style={{textDecoration:"none"}} to="/Projects/CoronaCraft"><p className="intro-text" onMouseEnter={() => this.autoComplete("React")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>React</strong></p></Link>                            
-                            <Link style={{textDecoration:"none"}} to="/Projects/TwitBot"><p className="intro-text" onMouseEnter={() => this.autoComplete("Python")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Python</strong></p></Link>                            
-                            <Link style={{textDecoration:"none"}} to="/Music"><p className="intro-text" onMouseEnter={() => this.autoComplete("Music")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Music</strong></p></Link>                            
-                            <Link style={{textDecoration:"none"}} to="/Volleyball"><p style={{borderRadius: "0px 0px 15px 15px"}} className="intro-text" onMouseEnter={() => this.autoComplete("Volleyball")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Volleyball</strong></p></Link>                            
-                        </div>
+                    <h2 className='search-bar'>
+                        <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> 
+                        alex ginella<span style={{opacity:"0.5"}}>{this.state.autoComplete}</span>
+                    </h2>
+                    <div className="search-results" onMouseLeave={() => this.setState({autoComplete:""})}>
+                        <Link style={{textDecoration:"none"}} to="/Projects/Kontagion"><p className="intro-text" onMouseEnter={() => this.autoComplete("C++")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>C++</strong></p></Link>
+                        <Link style={{textDecoration:"none"}} to="/Projects/aMAZEing"><p className="intro-text" onMouseEnter={() => this.autoComplete("Java")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Java</strong></p></Link>
+                        <Link style={{textDecoration:"none"}} to="/Projects/POSTagger"><p className="intro-text" onMouseEnter={() => this.autoComplete("Computational Linguistics")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Computational Linguistics</strong></p></Link>                            
+                        <Link style={{textDecoration:"none"}} to="/Projects/CoronaCraft"><p className="intro-text" onMouseEnter={() => this.autoComplete("React")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>React</strong></p></Link>                            
+                        <Link style={{textDecoration:"none"}} to="/Projects/TwitBot"><p className="intro-text" onMouseEnter={() => this.autoComplete("Python")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Python</strong></p></Link>                            
+                        <Link style={{textDecoration:"none"}} to="/Music"><p className="intro-text" onMouseEnter={() => this.autoComplete("Music")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Music</strong></p></Link>                            
+                        <Link style={{textDecoration:"none"}} to="/Volleyball"><p style={{borderRadius: "0px 0px 15px 15px"}} className="intro-text" onMouseEnter={() => this.autoComplete("Volleyball")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Volleyball</strong></p></Link>                            
+                    </div>
                     </Cell>
                     <Cell col={11}/>
                 </Grid>
