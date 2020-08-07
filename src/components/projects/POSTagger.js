@@ -26,14 +26,14 @@ class POSTagger extends Component{
                         right part of speech for that context.
                     </p>
                     <h3 className="project-title" style={{margin:"0"}}>Example:</h3>
-                    <img style={{padding:"15px"}} src={require("../../images/POSTagger.png")}/>
+                    <img alt="example-output" style={{padding:"15px"}} src={require("../../images/POSTagger.png")}/>
                     <p className="project-text" style={{fontSize:"20pt"}}>
                         Given the input string "the very fat cat" the program uses contextual data
                         from the corpus to determine that "the" is a determiner, "very" is an adverb, "fat" is an adjective and "cat" is a noun.
                     </p>
                 </Cell>
                 <Cell col={4}>
-                    <img style={{width:"100%"}} src={require("../../images/SLG-compressor.jpg")}/>
+                    <img alt="SLG notes" style={{width:"100%"}} src={require("../../images/SLG-compressor.jpg")}/>
                     <h2 className="project-text">
                         <a style={{color:"white"}} href="https://github.com/alexginella/PartOfSpeechTagger/archive/master.zip">Download the code here</a>
                     </h2>

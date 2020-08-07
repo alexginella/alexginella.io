@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Grid, Cell, Button } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
@@ -22,40 +22,6 @@ class Home extends Component {
         })
     }
 
-/**
-    initialize(){
-
-        // Update the controls on load
-        updateTimerDisplay();
-        updateProgressBar();
-    
-        // Clear any old interval.
-        clearInterval(time_update_interval);
-    
-        // Start interval to update elapsed time display and
-        // the elapsed part of the progress bar every second.
-        time_update_interval = setInterval(function () {
-            updateTimerDisplay();
-            updateProgressBar();
-        }, 1000)
-    
-    }
-
-    onYouTubeIframeAPIReady() {
-        var player = new YT.Player('video-placeholder', {
-            width: 600,
-            height: 400,
-            videoId: 'rn7MmS3vazU',
-            playerVars: {
-                color: 'white',
-                playlist: 'taJ60kskkns,FG0fTKAqZ5g'
-            },
-            events: {
-                onReady: initialize
-            }
-        });
-    }
- */
 
     render(){
         return (
@@ -80,11 +46,7 @@ class Home extends Component {
                         </div>
                     </Cell>
                     <Cell col={11}/>
-                    <Cell col={1}>
-                        <div id="video-placeholder"></div>
-                    </Cell>
                 </Grid>
-                <script src="https://www.youtube.com/iframe_api"></script>
             </div>
         )
     }

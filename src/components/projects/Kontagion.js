@@ -36,7 +36,7 @@ class Kontagion extends Component{
                     </h2>
                 </Cell>
                 <Cell col={6}>
-                    <img style={{width:"100%"}} src={require("../../images/Kontagion.gif")}/>
+                    <img alt="Kontagion-gif" style={{width:"100%"}} src={require("../../images/Kontagion.gif")}/>
                 </Cell>
             </Grid>
         );

@@ -11,14 +11,14 @@ class aMAZEing extends Component{
                     </h1>
                 </Cell>
                 <Cell col={6}>
-                    <img style={{width:"100%", height:"100%"}} src={require("../../images/maze-with-labels.png")}/>
+                    <img alt="maze" style={{width:"100%", height:"100%"}} src={require("../../images/maze-with-labels.png")}/>
                 </Cell>
                 <Cell col={6}>
                     <p className="project-text" style={{fontSize:"20pt"}}>
                         aMAZEing is a Java program that uses a disjoint set data structure to generate
                         a square maze of variable dimension. The maze is represented as a square of hexadecimal
                         characters, each representing a walled segment of the maze. These segments can be visualized using the 
-                        maze visualizer found at <a style={{color:"white"}} href="https://jeff.cis.cabrillo.edu/tools/cs21_maze_viewer" target="_blank">this site.</a>
+                        maze visualizer found at <a style={{color:"white"}} rel="noopener noreferrer" href="https://jeff.cis.cabrillo.edu/tools/cs21_maze_viewer" target="_blank">this site.</a>
                     </p>
                     <p className="project-text" style={{fontSize:"20pt"}}>
                         The program uses a breadth first search to traverse and solve the maze. The program outputs a
@@ -31,7 +31,6 @@ class aMAZEing extends Component{
                         </a>
                     </h1>
                 </Cell>
-                <Cell col={12}><h1/></Cell>
                 <Cell col={6}>
                     <h1 className="project-text">
                         Example Output:
@@ -43,10 +42,10 @@ class aMAZEing extends Component{
                     </h1>
                 </Cell>
                 <Cell col={6}>
-                    <img style={{width:"100%", height:"90%"}} src={require("../../images/maze2-square.png")}/>
+                    <img style={{width:"100%", height:"90%"}} alt="terminal-output" src={require("../../images/maze2-square.png")}/>
                 </Cell>
                 <Cell col={6}>
-                    <img style={{width:"100%", height:"90%"}} src={require("../../images/maze-sheet-square.png")}/>
+                    <img style={{width:"100%", height:"90%"}} alt="maze-sheet" src={require("../../images/maze-sheet-square.png")}/>
                 </Cell>
             </Grid>
         );

@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import ProjectsNavBar from './ProjectsNavigation'
 import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton, Grid, Cell } from 'react-mdl';
 import {Link} from 'react-router-dom'
 

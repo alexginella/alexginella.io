@@ -26,7 +26,7 @@ class Volleyball extends Component{
                     </p>
                 </Cell>
                 <Cell col={12}>                   
-                    <img src={require("../images/CoolPic.JPG")} controls/>
+                    <img alt="highschool-highlight" src={require("../images/CoolPic.JPG")} controls/>
                 </Cell>
             </Grid>
         );

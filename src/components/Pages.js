@@ -12,7 +12,6 @@ import Music from "./Music";
 import Volleyball from "./Volleyball";
 import TwitBot from "./projects/TwitBot";
 import Experience from "./Experience";
-import Starfield from "./Starfield";
 
 function Pages(){
     return (

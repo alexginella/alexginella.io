@@ -6,7 +6,7 @@ class Music extends Component{
         return(
             <Grid>
                 <Cell col={12}>
-                    <img style={{width:"100%"}} src={require("../images/12oclock.jpg")}/>
+                    <img alt="banner" style={{width:"100%"}} src={require("../images/12oclock.jpg")}/>
                 </Cell>
                 <Cell col={4}>
                     <p className="music-text">
@@ -16,8 +16,8 @@ class Music extends Component{
                     </p>
                 </Cell>
                 <Cell col={8}>
-                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/497766021&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>    
-                    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/497766177&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>          
+                    <iframe title="hot apple cider" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/497766021&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>    
+                    <iframe title="peculiar" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/497766177&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>          
                 </Cell>
             </Grid>
         );
