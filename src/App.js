@@ -12,13 +12,13 @@ class App extends Component {
   render(){
     return (
       <div className="demo-big-content">
-        <Layout>
-        <Header className="navbar-color" title={<Link to="/" style={{color: "white", textDecoration: "none"}}>alexginella.io</Link>} scroll>
+        <Layout fixedDrawer fixedHeader>
+        <Header onChange={() => {}} className="navbar-color" title={<Link to="/" style={{color: "white", textDecoration: "none"}}>alexginella.io</Link>} scroll>
             <Navigation>
                 <Icons/>
             </Navigation>
         </Header>
-        <Drawer title="alexginella.io">
+        <Drawer title="Menu">
             <NavBar/>
         </Drawer>
         <Content className="content">

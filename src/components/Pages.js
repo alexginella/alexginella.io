@@ -17,19 +17,19 @@ function Pages(){
     return (
         <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/Resume" component={Resume} />
-            <Route path="/Aboutme" component={AboutMe} />
-            <Route path="/Music" component={Music}/>
-            <Route path="/Volleyball" component={Volleyball}/>
-            <Route path="/Experience" component={Experience}/>
+            <Route path="/resume" component={Resume} />
+            <Route path="/aboutme" component={AboutMe} />
+            <Route path="/music" component={Music}/>
+            <Route path="/volleyball" component={Volleyball}/>
+            <Route path="/experience" component={Experience}/>
             <div>
-                <Route exact path="/Projects" component={Projects}/>
+                <Route exact path="/projects" component={Projects}/>
                 <div>
-                    <Route path="/Projects/POSTagger" component={POSTagger}/>
-                    <Route path="/Projects/aMAZEing" component={aMAZEing}/>
-                    <Route path="/Projects/Kontagion" component={Kontagion}/>
-                    <Route path="/Projects/CoronaCraft" component={CoronaCraft}/>
-                    <Route path="/Projects/TwitBot" component={TwitBot}/>
+                    <Route path="/projects/POSTagger" component={POSTagger}/>
+                    <Route path="/projects/aMAZEing" component={aMAZEing}/>
+                    <Route path="/projects/kontagion" component={Kontagion}/>
+                    <Route path="/projects/coronacraft" component={CoronaCraft}/>
+                    <Route path="/projects/twitbot" component={TwitBot}/>
                 </div>
             </div>
             

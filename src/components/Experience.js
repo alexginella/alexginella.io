@@ -36,7 +36,7 @@ class Experience extends Component{
                     icon={<FontAwesomeIcon icon={faSchool}/>}
                 >
                     <h3 className="vertical-timeline-element-title">University of California, Los Angeles</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Bachelor's in Computer Science and Linguistics</h4>
+                    <h4 className="vertical-timeline-element-subtitle">B.A Computer Science and Linguistics</h4>
                     <p>
                         UPI honors society member
                     </p>
@@ -62,13 +62,13 @@ class Experience extends Component{
                     icon={<FontAwesomeIcon icon={faSchool}/>}
                 >
                     <h3 className="vertical-timeline-element-title">Pacific Collegiate School</h3>
-                    <h4 className="vertical-timeline-element-subtitle">Diploma</h4>
+                    <h4 className="vertical-timeline-element-subtitle">High School Diploma</h4>
                     <p>
                         Seal of biliteracy: French
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
-                    iconStyle={{ background: 'red', color: '#fff' }}
+                    iconStyle={{display:"inline-block", textAlign:"center", background: 'red', color: '#fff' }}
                     icon={<FontAwesomeIcon icon={faFlagCheckered}/>}
                 />
             </VerticalTimeline>

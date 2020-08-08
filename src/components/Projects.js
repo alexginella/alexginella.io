@@ -8,7 +8,7 @@ class Projects extends Component{
             <div>
                 <Grid>
                     <Cell col={12}>
-                        <h1 className="project-title">
+                        <h1 className="title-text">
                             Projects
                         </h1>
                     </Cell>

@@ -53,7 +53,7 @@ a.social:hover {
 }
 
 .title-text{
-  background-color: rgba(0, 82, 82, 0.719);
+  background-color: rgba(0, 0, 0, 0.404);
   color: white;
   width: fit-content;
   margin: auto;
@@ -83,7 +83,7 @@ a.social:hover {
 }
 
 .about-me{
-  background-color: rgba(0, 82, 82, 0.719);
+  background-color: rgba(0, 0, 0, 0.419);
   margin: auto;
   color: white;
   padding: 15px;
