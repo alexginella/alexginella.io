@@ -6,7 +6,7 @@ import { Grid, Cell } from "react-mdl";
 class Volleyball extends Component{
     render(){
         return(
-            <Grid className="landing-grid">
+            <Grid>
                 <Cell col={12}>
                     <h2 className="title-text">
                         Volleyball
