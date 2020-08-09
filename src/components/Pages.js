@@ -1,8 +1,8 @@
 import React from "react"
-import Home from './homepage'
+import Home from './Homepage'
 import {Switch, Route} from 'react-router-dom';
 import Resume from "./Resume";
-import AboutMe from "./aboutme";
+import AboutMe from "./Aboutme";
 import Projects from "./Projects";
 import POSTagger from "./projects/POSTagger";
 import aMAZEing from "./projects/aMAZEing";

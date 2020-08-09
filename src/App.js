@@ -12,21 +12,21 @@ class App extends Component {
   render(){
     return (
       <div className="demo-big-content">
-        <Layout fixedDrawer fixedHeader>
-        <Header onChange={() => {}} className="navbar-color" title={<Link to="/" style={{color: "white", textDecoration: "none"}}>alexginella.io</Link>} scroll>
-            <Navigation>
-                <Icons/>
-            </Navigation>
-        </Header>
-        <Drawer title="Menu">
-            <NavBar/>
-        </Drawer>
-        <Content className="content">
-          <Starfield/>
-          <div className={classes.Content}>
-            <Pages/>
-          </div>
-        </Content>
+        <Layout>
+          <Header className="navbar-color" title={<Link to="/" style={{color: "white", textDecoration: "none"}}>alexginella.io</Link>} scroll>
+              <Navigation>
+                  <Icons/>
+              </Navigation>
+          </Header>
+          <Drawer title="Menu">
+              <NavBar/>
+          </Drawer>
+          <Content className="content">
+            <Starfield/>
+            <div className={classes.Content}>
+              <Pages/>
+            </div>
+          </Content>
         </Layout>
       </div>
     )
