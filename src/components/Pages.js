@@ -12,6 +12,7 @@ import Music from "./Music";
 import Volleyball from "./Volleyball";
 import TwitBot from "./projects/TwitBot";
 import Experience from "./Experience";
+import Twitch from "./Twitch";
 
 function Pages(){
     return (
@@ -22,6 +23,7 @@ function Pages(){
             <Route path="/music" component={Music}/>
             <Route path="/volleyball" component={Volleyball}/>
             <Route path="/experience" component={Experience}/>
+            <Route path="/twitch" component={Twitch}/>
             <div>
                 <Route exact path="/projects" component={Projects}/>
                 <div>
