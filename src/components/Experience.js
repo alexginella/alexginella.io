@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 /**import { faSuitcase } from "@fortawesome/free-solid-svg-icons";*/
 import { faSchool } from "@fortawesome/free-solid-svg-icons";
 import { faFlagCheckered } from "@fortawesome/free-solid-svg-icons";
+import { faSuitcase } from "@fortawesome/free-solid-svg-icons";
 import 'react-vertical-timeline-component/style.min.css';
 
 //<FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" />
@@ -29,9 +30,23 @@ class Experience extends Component{
         return(
             <VerticalTimeline>
                 <VerticalTimelineElement
+                    className="vertical-timeline-element--work"
+                    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    date="Octorber 2020 - Present"
+                    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                    icon={<FontAwesomeIcon icon={faSuitcase}/>}
+                >
+                    <h3 className="vertical-timeline-element-title">Undergraduate Researcher</h3>
+                    <h4 className="vertical-timeline-element-subtitle">University of California, Los Angeles</h4>
+                    <p>
+                        Creating and modifying a data mining tool using word2vec, and a neural network trained on material science journal
+                        articles with the goal of automatically extracting material science data.
+                    </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    date="2019 - Spring 2021"
+                    date="2019 - June 2021"
                     iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                     icon={<FontAwesomeIcon icon={faSchool}/>}
                 >
