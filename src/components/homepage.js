@@ -5,6 +5,7 @@ import { faSearch } from "@fortawesome/free-solid-svg-icons";
 import {Link} from 'react-router-dom';
 import '../App.css';
 
+/** <Link style={{textDecoration:"none"}} to="/projects/twitbot"><p className="intro-text" onMouseEnter={() => this.autoComplete("Python")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Python</strong></p></Link> */
 
 class Home extends Component {
 
@@ -40,7 +41,6 @@ class Home extends Component {
                         <Link style={{textDecoration:"none"}} to="/projects/aMAZEing"><p className="intro-text" onMouseEnter={() => this.autoComplete("Java")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Java</strong></p></Link>
                         <Link style={{textDecoration:"none"}} to="/projects/POSTagger"><p className="intro-text" onMouseEnter={() => this.autoComplete("Computational Linguistics")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Computational Linguistics</strong></p></Link>                            
                         <Link style={{textDecoration:"none"}} to="/projects/coronacraft"><p className="intro-text" onMouseEnter={() => this.autoComplete("JavaScript")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>JavaScript</strong></p></Link>                            
-                        <Link style={{textDecoration:"none"}} to="/projects/twitbot"><p className="intro-text" onMouseEnter={() => this.autoComplete("Python")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Python</strong></p></Link>                            
                         <Link style={{textDecoration:"none"}} to="/twitch"><p className="intro-text" onMouseEnter={() => this.autoComplete("Twitch")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Twitch</strong></p></Link>                            
                         <Link style={{textDecoration:"none"}} to="/music"><p style={{borderRadius: "0px 0px 15px 15px"}} className="intro-text" onMouseEnter={() => this.autoComplete("Music")}> <FontAwesomeIcon className="search-icon" icon={faSearch} size="sm" /> alex ginella <strong>Music</strong></p></Link>                            
                     </div>

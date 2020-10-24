@@ -80,7 +80,16 @@ class Projects extends Component{
                             </CardMenu>
                         </Card>
                     </Cell>
-                    <Cell col={4}>
+                    
+                </Grid>
+            </div>
+        )
+    }
+
+}
+
+/**
+ * <Cell col={4}>
                         <Card shadow={1} style={{width: 'fit-content', margin: 'auto'}}>
                             <CardTitle style={{color: 'white', height: '176px', background: 'url(https://support.appsflyer.com/hc/article_attachments/360001968989/twitter_logo.jpg) center/cover'}}>TwitBot - Python</CardTitle>
                             <CardText>
@@ -97,11 +106,6 @@ class Projects extends Component{
                             </CardMenu>
                         </Card>
                     </Cell>
-                </Grid>
-            </div>
-        )
-    }
-
-}
+ */
 
 export default Projects;

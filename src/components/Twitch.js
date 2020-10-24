@@ -10,8 +10,8 @@ class Twitch extends Component{
                         <a style={{color:"white"}} target="blank_" href="https://twitch.tv/churtleneck">Churtleneck</a>
                     </h1>
                 </Cell>
-                <Cell col={8}>
-                    <img alt="my twitch profile at www.twitch.tv/churtleneck" src={require("../images/my-twitch.png")}></img>
+                <Cell col={12}>
+                    <img style={{margin:"auto"}} alt="my twitch profile at www.twitch.tv/churtleneck" src={require("../images/my-twitch.png")}></img>
                 </Cell>
                 <Cell col={12}>
                     <h3 className="project-text">Check out my twitch! I jam out and stream flappy bird and other throwback games</h3>
