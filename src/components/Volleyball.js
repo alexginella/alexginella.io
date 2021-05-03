@@ -14,7 +14,7 @@ class Volleyball extends Component{
                 </Cell>
                 <Cell col={12}>
                     <p className="project-text">
-                        Some open gym funnies (I'm the one in the pants and Gekyume shirt)
+                        Some pre-pandemic open gym action (I'm the one in the pants and Gekyume shirt)
                     </p>
                 </Cell>
                 <Cell col={12}>                   

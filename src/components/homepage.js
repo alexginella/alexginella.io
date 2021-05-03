@@ -29,7 +29,7 @@ class Home extends Component {
             <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                    <img src={require("../images/bill_gates.jpg")} 
+                    <img src={require("../images/alex_lola.jpg")} 
                              alt="my face" 
                              className="pic"/>
                     <h2 className='search-bar'>

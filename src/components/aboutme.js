@@ -10,11 +10,11 @@ class AboutMe extends Component {
                     <h1 className="title-text">Who am I?</h1>
                 </Cell>
                 <Cell col={12}>
-                    <p className="about-me">Alex Ginella is a senior Computer Science and Linguistics undergraduate at
+                    <p className="about-me">Alex Ginella is a senior computer science and linguistics undergraduate at
                                               the University of California, Los Angeles. His interests include: coding,
                                               linguistics, computational linguistics, artificial intelligence, volleyball and jazz.
                                               He expects to graduate in the Spring of 2021 and hopes to pursue a career in 
-                                              Software Engineering and Entrepreneurship.</p>
+                                              software engineering and entrepreneurship.</p>
                 </Cell>
             </Grid>
         )
